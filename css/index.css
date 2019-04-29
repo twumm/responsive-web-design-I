@@ -161,9 +161,9 @@ footer {
 	margin-top: 20px;
 }
 
-footer .company-address p {
+footer .company-address h4 {
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 footer .copyright {
