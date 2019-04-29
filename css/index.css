@@ -273,7 +273,7 @@ header img {
 
 .content-section section {
 	border: 1px solid black;
-	width: 335px;
+	width: 48%;
 	margin-bottom: 30px;
 	display: flex;
 	flex-direction: column;
@@ -289,6 +289,16 @@ header img {
 	border: 1px solid black;
 	background-color: white;
 	border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-section section {
+    width: 100%;
+  }
 }
 
 .facts-services {
