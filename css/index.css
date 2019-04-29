@@ -330,6 +330,31 @@ header img {
 	width: 330px;
 }
 
+@media (max-width: 500px) {
+  .facts-services {
+    flex-direction: column-reverse;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    padding-bottom: 30px;
+  }
+  .facts-services .facts-services-left {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .facts-services .facts-services-left h1 {
+    text-align: center;
+  }
+  .facts-services .facts-services-left ul {
+    list-style-type: none;
+  }
+  .facts-services .facts-services-right {
+    margin: auto;
+  }
+  .facts-services .facts-services-left p {
+    line-height: 1.5;
+  }
+}
+
 /* Footer */
 footer {
 	margin-top: 30px;
