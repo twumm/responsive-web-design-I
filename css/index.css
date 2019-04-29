@@ -306,6 +306,13 @@ header img {
   }
 }
 
+@media (max-width: 500px) {
+  .content-section section p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
 .facts-services {
 	border-top: 2px solid black;
 	padding-top: 30px;
