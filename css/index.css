@@ -247,6 +247,10 @@ header img {
   .middle-content-bottom section {
     padding: 25px 5px;
   }
+  .middle-content-top section p,
+  .middle-content-bottom section p  {
+    line-height: 1.5;
+  }
 }
 
 /* Footer */
