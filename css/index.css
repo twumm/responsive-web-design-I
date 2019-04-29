@@ -72,20 +72,20 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
   .container {
-    width: 800px;
+    width: 98%;
     margin: 0 auto;
+    /* padding: 20px; */
   } 
-} */
+}
 
 @media (max-width: 500px) {
   .container {
-    width: 500px;
+    width: 97%;
     margin: 0 auto;
   }
 }
-
 
 header {
 	margin: 20px 0;
@@ -232,6 +232,17 @@ header img {
   .middle-content-bottom section p
    {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .middle-content-top,
+  .middle-content-bottom {
+    flex-direction: column;
+  }
+  .middle-content-top section,
+  .middle-content-bottom section {
+    padding: 25px 5px;
   }
 }
 
