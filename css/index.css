@@ -144,6 +144,24 @@ header img {
 	vertical-align: top;
 }
 
+@media (max-width: 800px) {
+  .top-content {
+    margin: 20px 0 50px 0;
+  }
+  .top-content-left h1 {
+    font-size: 4rem;
+  }
+  .top-content-left button {
+    padding: 6px 30px;
+  }
+  .top-content .top-content-left {
+    width: 100%;
+  }
+  .top-content img {
+    display: none;
+  }
+}
+
 .middle-content {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
