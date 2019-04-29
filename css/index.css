@@ -134,7 +134,7 @@ header img {
 
 .middle-content-top {
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .middle-content-top section p {
@@ -148,7 +148,7 @@ header img {
 
 .middle-content-bottom {
 	display: flex;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .middle-content-bottom section p {
@@ -158,7 +158,7 @@ header img {
 
 /* Footer */
 footer {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 footer .company-address h4 {
