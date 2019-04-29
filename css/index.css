@@ -142,6 +142,9 @@ header img {
     padding: 20px 0;
     font-size: 1.2rem;
   }
+  header nav a:nth-last-child(1) {
+    border-bottom: 1px solid grey;;
+  }
 }
 
 .top-content {
