@@ -111,12 +111,12 @@ header img {
 }
 
 .top-content-left h1 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 }
 
 .top-content-left button {
 	border: 1px solid black;
-	padding: 5px 20px;
+	padding: 4px 25px;
 	background-color: white;
 }
 
