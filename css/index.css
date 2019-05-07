@@ -68,84 +68,102 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 700px;
+	width: 97%;
 	margin: 0 auto;
 }
 
-@media (max-width: 800px) {
-  .container {
-    width: 98%;
-    margin: 0 auto;
-    /* padding: 20px; */
-  } 
-}
-
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   .container {
     width: 97%;
     margin: 0 auto;
   }
 }
 
+@media (min-width: 800px) {
+  .container {
+    width: 98%;
+    margin: 0 auto;
+  } 
+}
+
 header {
 	margin: 20px 0;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
 
 header nav {
 	display: flex;
-	align-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  order: 2;
 }
 
 header nav a {
-	padding: 0px 20px 10px 0px;
+	/* padding: 0px 20px 10px 0px;
 	text-decoration: none;
 	color: grey;
   padding-right: 30px;
-  font-size: 0.9rem;
+  font-size: 0.9rem; */
+  border-top: 1px solid grey;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: grey;
+}
+
+header nav a:nth-last-child(1) {
+  border-bottom: 1px solid grey;;
 }
 
 header img {
-	margin-left: 20px;
+  /* margin-left: 20px; */
+  margin: 10px 0 30px 0;
+  order: 1;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 500px) {
+  header nav {
+    flex-direction: row;
+  }
+  header nav a {
+    border-top: none;
+    width: 100%;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-size: 1rem;
+  }
+  header nav a:nth-last-child(1) {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 800px) {
   header {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+	  /* align-items: flex-end; */
   }
 
   header nav {
-    order: 2;
     justify-content: space-between;
     width: 100%;
+    order: 1;
   }
 
   header img {
-    order: 1;
-    margin-bottom: 30px;
+    margin: 0;
+    order: 2;
   }
 }
 
-@media (max-width: 500px) {
-  header nav {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-  header nav a {
-    border-top: 1px solid grey;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 1.2rem;
-  }
-  header nav a:nth-last-child(1) {
-    border-bottom: 1px solid grey;;
-  }
-}
+
 
 .top-content {
 	display: flex;
